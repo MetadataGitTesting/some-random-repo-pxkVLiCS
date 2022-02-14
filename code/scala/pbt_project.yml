@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: manie.osinski@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-14 14:57:59'
+    datasets:
+      inputs: []
+      outputs: []
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: null
@@ -74,4 +84,9 @@ workflows:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Wesley_Kilback:
+    name: Wesley_Kilback
+    description: Really solid info
+    createdAt: '2022-02-14 14:58:00'
+    author: manie.osinski@gmail.com
